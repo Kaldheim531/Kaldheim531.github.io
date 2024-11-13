@@ -1,0 +1,395 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+    <style>
+      .ripple {
+        position: relative;
+        overflow: hidden;
+        transform: translate3d(0, 0, 0);
+      }
+
+      .ripple:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        background-image: radial-gradient(circle, #000 10%, transparent 10.01%);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        transform: scale(10, 10);
+        opacity: 0;
+        transition: transform .5s, opacity 1s;
+      }
+
+      .ripple:active:after {
+        transform: scale(0, 0);
+        opacity: .2;
+        transition: 0s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="CV">
+      <div class="CV-v">
+        <div class="bento-flexbox">
+          <div class="profile-img" ,src="image.png"></div>
+          <div class="name-box ripple">
+            <div class="text-wrapper" contenteditable="true">Hello 👋🏻 I’m</div>
+            <div class="your-info">
+              <div class="name" contenteditable="true">Provkin Alexey</div>
+              <div class="role" contenteditable="true">Brand/Logo Designer</div>
+            </div>
+          </div>
+          <div class="lenguages-box">
+            <div class="title">
+              <div class="div" contenteditable="true">Languages</div>
+            </div>
+            <div class="list-lenguages">
+              <div class="name-lenguage">
+                <div class="text-wrapper-2" contenteditable="true">Russian</div>
+                <div class="text-wrapper-3" contenteditable="true">English</div>
+                <div class="text-wrapper-3" contenteditable="true">
+                  Ukranian
+                </div>
+              </div>
+              <div class="level-lenguage">
+                <div class="english-progress-bar"></div>
+                <div class="spanish-progress-bar"></div>
+                <div class="galician-progress"></div>
+              </div>
+            </div>
+          </div>
+          <div class="education-box">
+            <div class="div-wrapper">
+              <div class="div" contenteditable="true">Education</div>
+            </div>
+             <a href="your_pdf_file.pdf" download="my_resume.pdf" class="download-btn">Скачать PDF</a>
+            <div class="content">
+              <div class="column">
+                <div class="last-education">
+                  <div class="top-bar">
+                    <div class="text-wrapper-4" contenteditable="true">
+                      2024
+                    </div>
+                    <img
+                      class="vector"
+                      src="https://c.animaapp.com/GGoCTCeE/img/vector.svg"
+                    />
+                  </div>
+                  <div class="content-2">
+                    <div class="text-wrapper-4" contenteditable="true">
+                      UX/UI
+                    </div>
+                    <div class="tags">
+                      <div class="text-wrapper-5" contenteditable="true">
+                        #UX
+                      </div>
+                      <div class="text-wrapper-5" contenteditable="true">
+                        #UI
+                      </div>
+                      <div class="text-wrapper-5" contenteditable="true">
+                        #research
+                      </div>
+                      <div class="tag" contenteditable="true">
+                        #DesignSystem
+                      </div>
+                      <div class="tag" contenteditable="true">#Agile</div>
+                      <div class="tag" contenteditable="true">#wireframing</div>
+                      <div class="tag" contenteditable="true">#figma</div>
+                      <div class="tag" contenteditable="true">#IA</div>
+                    </div>
+                  </div>
+                  <div class="school-name" contenteditable="true">Neoland</div>
+                </div>
+                <div class="education">
+                  <div class="top-bar">
+                    <div class="text-wrapper-6" contenteditable="true">
+                      2017-2021
+                    </div>
+                    <img class="img" src="img/vector.svg" />
+                  </div>
+                  <div class="content-2">
+                    <div class="text-wrapper-6" contenteditable="true">
+                      Graphic design
+                    </div>
+                    <div class="tags">
+                      <div class="tag-2" contenteditable="true">#branding</div>
+                      <div class="tag-2" contenteditable="true">#web</div>
+                      <div class="tag-3" contenteditable="true">
+                        #illustration
+                      </div>
+                      <div class="tag-3" contenteditable="true">#adobe</div>
+                    </div>
+                  </div>
+                  <p class="school-name-2" contenteditable="true">SibSUTIS</p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="education">
+                  <div class="top-bar">
+                    <div class="text-wrapper-6" contenteditable="true">
+                      2022
+                    </div>
+                    <img class="like-button" src="img/like-button.svg" />
+                  </div>
+                  <div class="content-2">
+                    <div class="text-wrapper-6" contenteditable="true">
+                      Product designer
+                    </div>
+                    <div class="tags">
+                      <div class="tag-2" contenteditable="true">#analytics</div>
+                      <div class="tag-2" contenteditable="true">#research</div>
+                      <div class="tag-3" contenteditable="true">#prototype</div>
+                      <div class="tag-3" contenteditable="true">
+                        #wireframes
+                      </div>
+                    </div>
+                  </div>
+                  <div class="school-name-2" contenteditable="true">
+                    Coursera
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra-box">
+            <div class="interests-box">
+              <div class="div-wrapper">
+                <div class="div" contenteditable="true">Interests</div>
+              </div>
+              <div class="content-3">
+                <div class="name-wrapper">
+                  <div class="name-2" contenteditable="true">branding</div>
+                </div>
+                <div class="name-wrapper">
+                  <div class="name-2" contenteditable="true">
+                    brand identity
+                  </div>
+                </div>
+                <div class="name-wrapper">
+                  <div class="name-2" contenteditable="true">logo</div>
+                </div>
+                <div class="name-wrapper">
+                  <div class="name-2" contenteditable="true">typography</div>
+                </div>
+                <div class="name-wrapper">
+                  <div class="name-2" contenteditable="true">photography</div>
+                </div>
+                <div class="name-wrapper">
+                  <div class="name-2" contenteditable="true">designing</div>
+                </div>
+                <div class="name-wrapper">
+                  <div class="name-2" contenteditable="true">poster design</div>
+                </div>
+                <input class="input" placeholder="research" type="text" />
+                <div class="name-wrapper">
+                  <div class="name-2" contenteditable="true">
+                    social networks
+                  </div>
+                </div>
+                <div class="name-wrapper">
+                  <div class="name-2" contenteditable="true">illustration</div>
+                </div>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="name-title-wrapper">
+                <p class="name-title" contenteditable="true">
+                  Let´s chat! I´m ready to work on excinting projects
+                </p>
+              </div>
+              <div class="title-2">
+                <div class="name-title-2" contenteditable="true">
+                  kaldheim531@gmail.com
+                </div>
+                <div class="name-title-2" contenteditable="true">|</div>
+                <div class="name-title-2" contenteditable="true">
+                  +79628371153
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tools-box">
+            <div class="frame">
+              <div class="content-4">
+                <img
+                  class="logo-figma"
+                  src="https://c.animaapp.com/GGoCTCeE/img/logofigma@2x.png"
+                />
+                <img
+                  class="logo-creative-cloud"
+                  src="https://c.animaapp.com/GGoCTCeE/img/logocreativecloud@2x.png"
+                />
+                <img
+                  class="logomiro"
+                  src="https://c.animaapp.com/GGoCTCeE/img/logomiro-1@2x.png"
+                />
+                <img
+                  class="logo-notion"
+                  src="https://c.animaapp.com/GGoCTCeE/img/logonotion@2x.png"
+                />
+                <img
+                  class="logo-meet"
+                  src="https://c.animaapp.com/GGoCTCeE/img/logomeet@2x.png"
+                />
+                <img
+                  class="logoanalytics"
+                  src="https://c.animaapp.com/GGoCTCeE/img/logoanalytics.svg"
+                />
+                <div class="tag-4">
+                  <div class="text-wrapper-7" contenteditable="true">
+                    design
+                  </div>
+                </div>
+              </div>
+              <img
+                class="content-5"
+                src="https://c.animaapp.com/GGoCTCeE/img/content.svg"
+              />
+              <div class="tag-5">
+                <div class="text-wrapper-7" contenteditable="true">no-code</div>
+              </div>
+              <div class="content-6">
+                <img
+                  class="img-2"
+                  src="https://c.animaapp.com/GGoCTCeE/img/logochatgpt-1@2x.png"
+                />
+                <img
+                  class="logocopilot"
+                  src="https://c.animaapp.com/GGoCTCeE/img/logocopilot-1@2x.png"
+                />
+                <img
+                  class="img-2"
+                  src="https://c.animaapp.com/GGoCTCeE/img/logomidjourney-1@2x.png"
+                />
+                <img
+                  class="logomidjourney"
+                  src="https://c.animaapp.com/GGoCTCeE/img/logomidjourney-3@2x.png"
+                />
+              </div>
+              <div class="tag-6">
+                <div class="text-wrapper-7" contenteditable="true">
+                  artoficial intelligence
+                </div>
+              </div>
+            </div>
+            <div class="title-3">
+              <div class="div-wrapper">
+                <div class="div" contenteditable="true">Tools</div>
+              </div>
+            </div>
+          </div>
+          <div class="experience-box">
+            <div class="title">
+              <div class="div" contenteditable="true">Experience</div>
+            </div>
+            <div class="job-list">
+              <div class="last-job">
+                <div class="top-bar">
+                  <p class="date" contenteditable="true">
+                    Jul. 2023 - Ago. 2023
+                  </p>
+                  <div class="tag-7">
+                    <div class="text-wrapper-8" contenteditable="true">
+                      most recent
+                    </div>
+                  </div>
+                </div>
+                <div class="content-7">
+                  <div class="job-info">
+                    <div class="text-wrapper-4" contenteditable="true">
+                      Senior Graphic Designer
+                    </div>
+                    <div class="about-job">
+                      <div class="text-wrapper-5" contenteditable="true">
+                        Pinnacle
+                      </div>
+                      <div class="text-wrapper-5" contenteditable="true">|</div>
+                      <div class="text-wrapper-5" contenteditable="true">
+                        Full-time
+                      </div>
+                    </div>
+                  </div>
+                  <div class="featured-points">
+                    <p class="points" contenteditable="true">
+                      Research and brainstorm various design ideas for content
+                      and marketing.<br />Review the work submitted by Junior
+                      Designers and sharing feedback.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="job">
+                <div class="date-wrapper">
+                  <p class="p" contenteditable="true">Ene. 2021 - Jul. 2023</p>
+                </div>
+                <div class="content-7">
+                  <div class="job-info">
+                    <div class="text-wrapper" contenteditable="true">
+                      Graphic / Web designer
+                    </div>
+                    <div class="about-job">
+                      <div class="text-wrapper-9" contenteditable="true">
+                        Double Square
+                      </div>
+                      <div class="text-wrapper-9" contenteditable="true">|</div>
+                      <div class="text-wrapper-9" contenteditable="true">
+                        Full-time
+                      </div>
+                    </div>
+                  </div>
+                  <div class="featured-points">
+                    <p class="points-2" contenteditable="true">
+                      Development of internal projects from scratch, product
+                      design of brands.<br />Landing page, webapps and hybrid
+                      apps<br />Taking decisions with stakeholders for the
+                      future of products such as Beagle labs, myur...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="job">
+                <div class="date-wrapper">
+                  <p class="p" contenteditable="true">Feb. 2021 - Jul. 2023</p>
+                </div>
+                <div class="content-7">
+                  <div class="job-info">
+                    <div class="text-wrapper" contenteditable="true">
+                      Graphic Designer
+                    </div>
+                    <div class="about-job">
+                      <div class="company-name" contenteditable="true">
+                        Freelance
+                      </div>
+                    </div>
+                  </div>
+                  <div class="featured-points">
+                    <p class="points-2" contenteditable="true">
+                      Visual design for Events, Brands and Products.<br />Product
+                      design, Packaging Design<br />Logo Design
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      document.querySelectorAll('[ripple]').forEach(el => {
+        el.classList.add('ripple');
+      });
+    </script>
+  </body>
+</html>
