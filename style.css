@@ -1,0 +1,1038 @@
+.CV {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.CV .CV-v {
+  background-color: #ffffff;
+  width: 595.0px;
+  height: 842.0px;
+}
+
+.CV .bento-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 555px;
+  align-items: flex-start;
+  gap: 20px 20px;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+
+.CV .profile-img {
+  position: relative;
+  width: 124px;
+  height: 124px;
+  border-radius: 12px;
+  background-image: url(image.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.CV .name-box {
+  display: flex;
+  flex-direction: column;
+  width: 124px;
+  height: 124px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px;
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.CV .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.CV .your-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .name {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 14.6px;
+}
+
+.CV .role {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #5c5c5c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.CV .lenguages-box {
+  display: flex;
+  flex-direction: column;
+  width: 267px;
+  height: 124px;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 12px;
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.CV .title {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .div {
+  width: fit-content;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  line-height: 21px;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.CV .list-lenguages {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .name-lenguage {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 10.4px;
+  white-space: nowrap;
+}
+
+.CV .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 10.4px;
+  white-space: nowrap;
+}
+
+.CV .level-lenguage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.CV .english-progress-bar {
+  position: relative;
+  width: 184px;
+  height: 11px;
+  background-color: #28d979;
+  border-radius: 3px;
+}
+
+.CV .spanish-progress-bar {
+  position: relative;
+  width: 144px;
+  height: 11px;
+  background-color: #28d979;
+  border-radius: 3px;
+}
+
+.CV .galician-progress {
+  position: relative;
+  width: 123px;
+  height: 11px;
+  background-color: #28d979;
+  border-radius: 3px;
+}
+
+.CV .education-box {
+  display: flex;
+  flex-direction: column;
+  width: 268px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  padding: 12px;
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.CV .div-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .content {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-right: -4.00px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .column {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .last-education {
+  width: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #27d879;
+  border-radius: 10px;
+}
+
+.CV .top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.CV .vector {
+  position: relative;
+  width: 11px;
+  height: 9.39px;
+}
+
+.CV .content-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0px 2px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-top: -2px;
+}
+
+.CV .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ebf9f1;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .tag {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ebf9f1;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .school-name {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .education {
+  display: flex;
+  flex-direction: column;
+  width: 116px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.CV .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.CV .img {
+  position: relative;
+  width: 11px;
+  height: 9.39px;
+  margin-bottom: -70.19px;
+  margin-left: -879px;
+}
+
+.CV .tag-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #148f63;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .tag-3 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #148f63;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .school-name-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .like-button {
+  position: relative;
+  width: 11px;
+  height: 9.39px;
+  margin-bottom: -202.19px;
+  margin-left: -1118px;
+}
+
+.CV .extra-box {
+  display: inline-flex;
+  flex-direction: column;
+  height: 289px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .interests-box {
+  display: flex;
+  flex-direction: column;
+  width: 267px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  padding: 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.CV .content-3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px 8px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .name-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 4px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.CV .name-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.CV .input {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 4px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 40px;
+  border: none;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.CV .contact {
+  display: flex;
+  flex-direction: column;
+  width: 267px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #000000;
+  border-radius: 12px;
+}
+
+.CV .name-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .name-title {
+  align-self: stretch;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.CV .title-2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .name-title-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #dddddd;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.CV .tools-box {
+  position: relative;
+  width: 124px;
+  height: 359px;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.CV .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 48px;
+  left: 24px;
+}
+
+.CV .content-4 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 76px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px 16px;
+  padding: 16px 4px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .logo-figma {
+  position: relative;
+  width: 10px;
+  height: 15px;
+}
+
+.CV .logo-creative-cloud {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+.CV .logomiro {
+  position: relative;
+  width: 21px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.CV .logo-notion {
+  position: relative;
+  width: 17px;
+  height: 17.72px;
+}
+
+.CV .logo-meet {
+  position: relative;
+  width: 19.5px;
+  height: 15.95px;
+}
+
+.CV .logoanalytics {
+  position: relative;
+  width: 19px;
+  height: 18px;
+}
+
+.CV .tag-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 6px;
+  position: absolute;
+  top: -5px;
+  left: 23px;
+  background-color: #000000;
+  border-radius: 59px;
+}
+
+.CV .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 7.1px;
+  white-space: nowrap;
+}
+
+.CV .content-5 {
+  width: 76px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .tag-5 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 6px;
+  position: absolute;
+  top: 126px;
+  left: 20px;
+  background-color: #000000;
+  border-radius: 59px;
+}
+
+.CV .content-6 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 76px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px 16px;
+  padding: 16px 4px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .img-2 {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  object-fit: cover;
+}
+
+.CV .logocopilot {
+  position: relative;
+  width: 18px;
+  height: 19px;
+  object-fit: cover;
+}
+
+.CV .logomidjourney {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  margin-top: -290.57px;
+  margin-left: -466.00px;
+  object-fit: cover;
+}
+
+.CV .tag-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 6px;
+  position: absolute;
+  top: 225px;
+  left: 5px;
+  background-color: #000000;
+  border-radius: 59px;
+}
+
+.CV .title-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.CV .experience-box {
+  display: flex;
+  flex-direction: column;
+  width: 411px;
+  height: 359px;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 12px;
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.CV .job-list {
+  gap: 10px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.CV .last-job {
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #27d879;
+  border-radius: 10px;
+}
+
+.CV .date {
+  color: #ffffff;
+  font-size: 8px;
+  line-height: 12px;
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.CV .tag-7 {
+  display: flex;
+  width: 61px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 2px 0px;
+  position: relative;
+  background-color: #7e731266;
+  border-radius: 59px;
+}
+
+.CV .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #dcf063;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12.4px;
+  white-space: nowrap;
+}
+
+.CV .content-7 {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .job-info {
+  width: 124px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.CV .about-job {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0px 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-top: -2px;
+}
+
+.CV .featured-points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.CV .points {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.CV .job {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.CV .date-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #3f3d3d;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .points-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.CV .company-name {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #3f3c3c;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,400,600");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+.download-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #3e8e41;
+  transform: scale(1.1);
+}
+.ripple {
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.ripple:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #000 10%, transparent 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(10, 10);
+  opacity: 0;
+  transition: transform .5s, opacity 1s;
+}
+
+.ripple:active:after {
+  transform: scale(0, 0);
+  opacity: .2;
+  transition: 0s;
+}
+
+@keyframes ripple {
+  100% {
+    transform: scale(2.5); /* Размер волны */
+    opacity: 0; /* Прозрачность волны */
+  }
+}
